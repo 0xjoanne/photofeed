@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #333;
+}
+
+header{
+  text-align: center;
+  margin: 80px 0 100px;
+}
+
+h1, #instagram .username, footer{
+  font-family: 'Amatic SC', cursive;
+  font-weight: 400;
+}
+
+h1{
+  font-size: 64px;
+}
+
+main{
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.search-input{
+  font-size: 24px;
+  width: 50%;
+  padding: 4px 15px 4px 42px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  background: url("../images/Search.png") no-repeat 7px 9px;
+}
+
+#instagram{
+  margin: 100px 0 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+#instagram li{
+  margin: 10px;
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  position: relative;
+}
+
+#instagram a{
+  display: block;
+  width: 320px;
+  height: 320px;
+}
+
+#instagram .username{
+  color: white;
+  font-size: 20px;
+  background: black;
+  padding: 0 10px;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  z-index: 999;
+}
+
+#instagram .avatar-img{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#instagram img{
+  width: 320px;
+  height: auto;
+}
+
+footer{
+  font-size: 16px;
+  text-align: center;
+  margin: 100px 0;
+}
