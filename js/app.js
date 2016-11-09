@@ -15,7 +15,7 @@ window.Instagram = {
     },
 
     login: function(callback){
-      var endpoint = "https://api.instagram.com/oauth/authorize/?client_id=" + this.config.client_id + "&redirect_uri=http://localhost:8888/photoFeed&response_type=token";
+      var endpoint = "https://api.instagram.com/oauth/authorize/?client_id=" + this.config.client_id + "&redirect_uri=https://qiongrongjiang.github.io/photofeed/&response_type=token";
       window.location = endpoint;
     },
 
